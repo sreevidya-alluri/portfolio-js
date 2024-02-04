@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color1.css">
+    
+</head>
+<body id="bodyEl">
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>P</span>ortfolio</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href="#" class="active"><i class="fas fa-home"></i>Home</a>
+                </li>
+                <li>
+                    <a href="#" id="aboutLink"><i class="fa fa-user"></i>About</a>
+                </li>
+            
+        
+                <li>
+                    <a href="#aboutSection"><i class="fa fa-comments"></i>Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="main-content">
+            <section class="home section hidden padd-15" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">Hello, my name is <span class="name">Sree Vidya</span></h3>
+                            <h3 class="my-profession">I'm a  <span class="name">Web developer</span></h3>
+                            <p> My expertise is to 
+                                create websites through which users can interact..
+                                I wish to work in an environment that encourages me to succeed and grow professionally where I
+                                can utilize my skills and knowledge appropriately. I am curious about learning new things and
+                                working on them.
+                            </p>
+                            <a href="mailto:sreevidya.alluri@gmail.com?subject=Hiring Inquiry" onclick="displayAbout()"  class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="girl-coding.jpg" alt=""/>
+                        </div>
+                </div>
+                </div>
+            </section id="aboutSection" class="hidden">
+            <div class="about section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3><span>A geek story</span></h3>
+                                    <p> I am a Mern stack enthusiast and a trainee in Nxtwave4.0 academy.
+                                        I've done a couple of virtual internships. I have honed my skills by giving exams like tcs nqt and scored 70% in it.
+                                        I've obtained certifications in html,css,python,bootstrap,sql,javascript and React.js. These are my strong suits.
+                                        Feel free to check out my github for my projects.I have intermediate proficiency in Express and Node.js. The on-going remote internship of nullclass company encourages me to grow professionaly, 
+                                        whilst the backend technologies ongoing courses make me more curious. 
+                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Linkedin : <span>https://www.linkedin.com/in/sree-vidya-alluri/</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Github : <span><a href="https://github.com/sreevidya-alluri?tab=repositories">github/sreevidya-alluri</a></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email : <span>sreevidya.alluri@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Qualification : <span> Btech-CSE (2019-2023)</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone : <span>+91 8790672506</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City : <span>Hyderabad</span></p>
+                                        </div>
+                                         
+                                    </div>
+                              
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="https://drive.google.com/file/d/1m0CsVisOy7AtC5dSvioFhyRMTpj3jWFS/view?usp=sharing" id="downloadResumeBtn" class="btn">Download Resume</a>
+                                            <a href="mailto:sreevidya.alluri@gmail.com?subject=Hiring Inquiry" class="btn btn-hireme">Hire Me</a>
+                                        </div>
+                                    </div>
+                
+                                <div class="skills d-flex flex-row justify-content-end ">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">95%</div>
+                                                </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">94%</div>
+                                                </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JS </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">85%</div>
+                                                </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Bootstrap </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">90%</div>
+                                                </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>SQL </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">90%</div>
+                                                </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Python </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">90%</div>
+                                                </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>React </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">80%</div>
+                                                </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Node and Express </h5>
+                                                <div class="progress">
+                                                    <div class="progress-in" style="width : 70%;"> </div>
+                                                        <div class="skill-percent">70%</div>
+                                                </div>
+                                        </div>
+                                </div>
+                                    </div>
+                                </div>
+                                      
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
